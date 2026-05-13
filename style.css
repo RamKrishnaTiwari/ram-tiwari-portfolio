@@ -124,3 +124,9 @@ h1 { font-size: 3rem; color: var(--accent-color); }
     .contact-grid { grid-template-columns: 1fr; }
     .hero-content { text-align: center; justify-content: center; }
 }
+
+.logo img {
+    height: 100px;    /* Adjust height to fit your design */
+    width: auto;     /* Maintains aspect ratio */
+    display: block;  /* Removes extra whitespace below the image */
+}
